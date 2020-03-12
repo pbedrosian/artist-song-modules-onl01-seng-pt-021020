@@ -6,7 +6,6 @@ class Song
   extend Memorable
   include Paramable #extend uses class method / include is instance method
 
-
   @@songs = []
 
   def initialize
