@@ -4,7 +4,7 @@ class Song
   attr_reader :artist
 
   extend Memorable
-  extend Paramable #extend uses class method / include is instance method
+  include Paramable #extend uses class method / include is instance method
 
 
   @@songs = []
